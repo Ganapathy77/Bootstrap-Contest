@@ -1,0 +1,28 @@
+body{
+    padding: 0 15px;
+    margin-top: 19px;
+    margin-bottom: 9px;
+}
+.image{
+    width: 100%;
+    height: 874px;
+    object-fit: cover;
+}
+.carousel-height{
+    height: 874px;;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .carousel-height{
+        height: 784px;
+    }
+    .image{
+        width: 100%;
+        height: 784px;
+        object-fit: cover;
+    }
+    .table{
+        width: 100%;
+    }
+  }
